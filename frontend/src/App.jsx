@@ -1,7 +1,8 @@
 
 import { useEffect, useState } from 'react'
 
-const apiBase = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+const apiBase =
+  import.meta.env.VITE_API_BASE || 'https://inventory-order-management-system-elts.onrender.com'
 
 function App() {
   const [products, setProducts] = useState([])
